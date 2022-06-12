@@ -1,0 +1,311 @@
+h.select2-container .select2-choice, .select2-results .select2-result-label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none
+}
+.findr {
+	float: right;
+	position: relative;
+	margin-right: 180px;
+	width: 450px;
+	padding: 0px;
+	background: #fff;
+	z-index: 2222;
+}
+.searcher {
+	margin: auto;
+	max-width: 1100px;
+	/*background-color: rgba(255,255,255,0.5);*/
+	background: #fff;
+	padding: 5px;
+	border-radius: 10px;
+}
+#search_wrapper {
+	width: 100%;
+	position: absolute;
+	margin-top: -330px;
+}
+#search_wrapper h2 {
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 17px;
+	line-height: 24px;
+	border-bottom: none;
+	padding: 7px 0 8px 15px;
+}
+.searcher ul, .searchers2 ul {
+	margin: 0px;
+	padding: 0px;
+}
+.searcher li, .searchers2 li {
+	list-style: none;
+}
+.citer, .typer {
+	float: left;
+	width: 82%;
+}
+/*.citers {
+	float: left;
+	width: 88%;
+}*/
+.citer-search {
+	float: left;
+	width: 80%;
+}
+/*.sr-find {
+	width: 47%;
+	float: left;
+	background: url(../image/search-icon.png) left no-repeat #fff;
+	padding: 4px 0 4px 4%;
+	border: 0px;
+	font-size: 15px;
+	height: 40px;
+}*/
+.blueboxer {
+	width: 18%;
+	text-align: center;
+	height: 48px;
+	background: #D2232A;
+	color: #fff;
+	border: 0px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.blueboxer2 {
+	width: 60px;
+	text-align: center;
+	height: 49px;
+	background: url(../image/search-icon2.png) top center no-repeat #D2232A;
+	color: #fff;
+	border: 0px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.select2-container .select2-choice {
+	display: block;
+	height: 42px;
+	padding: 6px 0 0 4%;
+	overflow: hidden;
+	position: relative;
+	white-space: nowrap;
+	line-height: 37px;
+	color: #A9A9A9;
+	font-size: 15px;
+	text-decoration: none;
+	background-clip: padding-box;
+	user-select: none;
+	background-color: #EEEEEE;/*border-radius: 5px*/
+}
+.select2-container.select2-allowclear .select2-choice abbr {
+	display: inline-block
+}
+.select2-container .select2-choice abbr:hover {
+	background-position: right -11px;
+	cursor: pointer
+}
+.select2-drop-mask {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	min-height: 100%;
+	min-width: 100%;
+	height: auto;
+	width: auto;
+	z-index: 9998;
+	background-color: #EEEEEE;
+	opacity: 0;
+	filter: alpha(opacity=0)
+}
+.select2-dropdown-open .select2-choice, .select2-dropdown-open.select2-drop-above .select2-choice, .select2-dropdown-open.select2-drop-above .select2-choices {
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0)
+}
+.select2-drop {
+	width: 100%;
+	margin-top: -1px;
+	position: absolute;
+	z-index: 9999;
+	top: 100%;
+	background: #fff;
+	color: #000
+}
+.select2-container .select2-choice .select2-arrow {
+	display: inline-block;
+	width: 35px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	/*border-left: 1px solid #ccc;*/
+	background: #EEEEEE;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px
+}
+.select2-container .select2-choice .select2-arrow b {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(http://static.placementindia.com/new-images/select2_hp.png) 0 8px no-repeat
+}
+.select2-search {
+	display: inline-block;
+	width: 96%;
+	min-height: 25px;
+	margin: 0;
+	padding-left: 2%;
+	position: relative;
+	z-index: 10000;
+	white-space: nowrap
+}
+.select2-search input {
+	width: 92%;
+	height: auto!important;
+	min-height: 25px;
+	font-size: 15px;
+	padding: 4px 4% 4px 4%;
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+}
+.select2-results {
+	max-height: 200px;
+	padding: 0 0 0 6px;
+	margin: 4px 4px 4px 0;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-tap-highlight-color: transparent
+}
+.select2-results li.select2-result-with-children>.select2-result-label {
+	font-weight: 700
+}
+.select2-results .select2-result-label {
+	padding: 5px 7px 6px;
+	margin: 0;
+	line-height: 20px;
+	cursor: pointer;
+	font-size: 14px;
+	border-bottom: 1px solid #E7EAEE;
+	min-height: 1em;
+	user-select: none
+}
+.select2-results .select2-highlighted {
+	background: #3875d7;
+	color: #fff
+}
+.select2-results li em {
+	background: #feffde;
+	font-style: normal
+}
+.select2-results .select2-highlighted em {
+	background: 0 0
+}
+.select2-results .select2-highlighted ul {
+	background: #fff;
+	color: #000
+}
+.select2-results .select2-disabled, .select2-results .select2-no-results, .select2-results .select2-searching, .select2-results .select2-selection-limit {
+	background: #f4f4f4;
+	display: list-item
+}
+.select2-results .select2-disabled.select2-highlighted {
+	color: #666;
+	background: #f4f4f4;
+	display: list-item;
+	cursor: default
+}
+.select2-offscreen, .select2-offscreen:focus {
+	clip: rect(0 0 0 0)!important;
+	width: 1px!important;
+	height: 1px!important;
+	border: 0!important;
+	margin: 0!important;
+	padding: 0!important;
+	overflow: hidden!important;
+	position: absolute!important;
+	outline: 0!important;
+	left: 0!important;
+	top: 0!important
+}
+.select2-display-none {
+	display: none
+}
+@media all and (max-width: 1050px) {
+.findr {
+	width: 50%;
+	float: right;
+}
+#search_wrapper {
+	width: 100%;
+	position: absolute;
+	margin-top: -300px;
+}
+}
+@media all and (max-width: 900px) {
+.sr-find {
+	width: 45%;
+	padding: 4px 0 4px 6%;
+}
+.citer, .typer {
+	float: left;
+}
+}
+@media all and (max-width: 768px) {
+.findr {
+	width: 70%;
+	float: right;
+}
+#search_wrapper {
+	margin-top: -260px;
+}
+.searcher {
+	width: 80%;
+	padding: 10px 15px;
+	background-color: rgba(255,255,255,0.5);
+}
+.citer, .typer {
+	float: left;
+	width: 100%;
+	margin-bottom: 12px;
+}
+.sr-find {
+	width: 92%;
+	padding: 4px 0 4px 8%;
+	margin-bottom: 12px;
+}
+.blueboxer {
+	width: 40%;
+	height: 42px;
+}
+}
+@media all and (max-width: 600px) {
+.findr {
+	width: 95%;
+	margin-top: -120px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#search_wrapper {
+	margin-top: -230px;
+}
+}
+@media all and (max-width: 550px) {
+.searcher {
+	width: 90%;
+	padding: 2% 3%;
+}
+.blueboxer {
+	width: 40%;
+	height: 42px;
+}
+}
