@@ -65,6 +65,33 @@ $(function () {
 </head>
 
 <body>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="image/login.png" alt="" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#" style="color: #4DA3FE;">password?</a></span>
+    </div>
+  </form>
+</div>
 <!-- Header -->
 <div id="sticky-anchor"></div>
 <div id="sticky">
@@ -79,7 +106,7 @@ $(function () {
       <li><a href="#become-a-professional">Become a Professional</a></li>
       <li><a href="#provider-login">Provider Login</a></li>
       <li><a href="#become-a-user">Become a User</a></li>
-      <li><a href="#become-a-user">Login</a></li>
+      <li><a href="#" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
     </ul>
   </div>
   </div>
@@ -104,7 +131,18 @@ $(function () {
                         </div>
                     </div>
                     <div class="item ">
-                        <div class="carousel-img-container" style="background-image: url('image/banner/b1.jpg');">
+                        <div class="carousel-img-container" style="background-image: url('image/banner/b2.jpg');">
+
+                        </div>
+                        <div class="carousel-img-container-content">
+                            <div class="carousel-img-container-content-main" class="font">                                
+                                <!--<h1><a href="#" style="font-size: 25px !important;">Book Quality Home Service Online | Service on clap Ac Service</a></h1>
+                                <p>Book Professional Handyman & Home Service Online We will Give Quality service at Your Doorstep at very Lowest Price.</p>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="carousel-img-container" style="background-image: url('image/banner/b3.jpg');">
 
                         </div>
                         <div class="carousel-img-container-content">
@@ -234,5 +272,16 @@ $(function () {
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "5c4d8483-fca4-4d07-b728-3e931fe6f3f1", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 </body>
 </html>
