@@ -639,6 +639,13 @@ span.psw {
 	color: #000;
 	margin-top: -20px;
 } 
+.photo-news h3 {
+	font-weight: normal;
+	font-size: 26px;
+	text-align: center;
+	/* color: #000; */
+	margin-top: -20px;
+} 
 .all-page {
 	background: #F2F4F6;
 	padding: 18px 0;
