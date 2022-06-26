@@ -1,0 +1,214 @@
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0!important;
+    height: 100%;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.BaseTemplate__translateUp {
+    position: relative;
+    top: -60px;
+    margin: 0 auto!important;
+}
+
+.Grid__container {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background: #fff;
+    margin: 64px auto;
+    width: 1200px;
+    border-radius: 4px;
+    box-shadow: 0 8px 26px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+}
+.Grid__container .Grid__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Grid__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    height: 112px;
+    cursor: pointer;
+    padding: 24px 16px 16px;
+    overflow: hidden;
+}
+.Grid__item .Grid__imageContainer {
+    width: 32px;
+    height: 32px;
+}
+.LazyLoadImage__imageContainer {
+    position: relative;
+}
+
+.TemplateShimmer__hidden {
+    opacity: 0;
+    z-index: 0;
+}
+.TemplateShimmer__shimmer {
+    position: absolute;
+    z-index: 3;
+    background: #f6f7f8;
+    background-image: linear-gradient(90deg,#f6f7f8 0,#edeef1 20%,#f6f7f8 40%,#f6f7f8);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: TemplateShimmer__placeholderShimmer--3ABuG;
+    animation-timing-function: linear;
+}
+.TemplateShimmer__shimmerWrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transition: opacity .5s ease-in-out;
+}
+
+.Grid__item .Grid__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Grid__item .Grid__text {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #212121;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.BasePreviewComponent__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-top: 16px solid #f2f4f6;
+    z-index: 2;
+}
+
+.Header__container {
+    padding: 60px 64px 0;
+    text-align: center;
+}
+
+.Carousel__container {
+    margin: 60px auto;
+}
+
+.b_e8c7 {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    user-select: none;
+}
+
+.b_e8c7 .b_u8c7 {
+    color: #ddd!important;
+}
+.b_e8c7 .b_m8c7 {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 36px;
+    transform: rotate(-180deg) translate(50%,50%);
+}
+.Carousel__disableStateArrowClass {
+    display: none;
+}
+.Carousel__leftArrowClass {
+    left: 14px!important;
+    top: 90px!important;
+    height: 56px;
+    width: 56px;
+}
+
+.Carousel__leftArrowClass>span, .Carousel__rightArrowClass>span {
+    font-size: 20px!important;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: -2px 1px 8px 0 rgb(0 0 0 / 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b_e8c7 .b_q8c7 {
+    right: -40px;
+    position: absolute;
+    top: 50%;
+    font-size: 36px;
+    color: #666;
+    z-index: 1;
+    cursor: pointer;
+}
+.Carousel__rightArrowClass {
+    top: 60px!important;
+    right: -14px!important;
+    box-shadow: none!important;
+    height: 56px;
+    width: 56px;
+}
+
+
+.sliding-data{
+
+    width: 700px;
+    /* height: 400px; */
+    margin-left: 200px;
+    display: flex;
+    
+}
+.data-details{
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 209px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.data-details>img{
+    border-radius: 7px;
+    width: 266px;
+    height: 149px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.data-details>p{
+    font-weight: 600;
+    display:flex;
+    font-size: 14px;
+    text-align:center;
+    
+}
+.flat-data>p{
+    margin-top: -5px;
+display: flex;
+font-size:12px;
+text-align: center;
+}
+
+

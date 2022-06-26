@@ -1,0 +1,190 @@
+@media all and (max-width: 1220px) {
+#header, .footer-stat, #footer, .page, .listing-list, .appsr, #cities, .findr, .why, #matter {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+@media all and (max-width: 900px) {
+.bet h2 {
+	font-size: 40px;
+}
+.bet p {
+	font-size: 14px;
+}
+.teams h2 {
+    font-size: 40px;
+}
+.icons {
+	width: 48%;
+}
+.icons1 {
+	width: 48%;
+}
+#banner {
+	margin-top: -40px;
+}
+#feature h2 {
+	font-size: 40px;
+}
+#patty h2 {
+	font-size: 40px;
+}
+#hock h2 { 
+	font-size: 40px;
+}
+#kabb h2 {
+	font-size: 40px;
+}
+.get-btn {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#feature {
+	max-width: 850px;
+	margin: 0 auto;
+	text-align: center;
+}
+.hocks {
+	width: 100%;
+	text-align: center;
+}
+#patty {
+	text-align: center;
+}
+.kabba {
+	width: 100%;
+	text-align: center;
+}
+.foot {
+    float: left;
+	width: 28%;
+}
+.foot2 {
+    float: left;
+	width: 40%;
+}
+.foot3 {
+    float: left;
+	width: 100%;
+}
+.logo, .logo2 {
+	position: absolute;
+	z-index: 9999;
+	max-width: 170px;
+}
+#wrapper {
+	position: relative;
+}
+#wrapper2 {
+	background: #fff;
+}
+}
+@media all and (max-width: 768px) {
+.socspl {
+	width: 98%;
+}
+.socspls {
+	width: 94%;
+}
+.apps-icon {
+	width: 100%;
+}
+.appsr-det {
+	width: 100%;
+}
+.cat-list {
+	float: left;
+	width: 32%;
+	margin-top: 2%;
+	
+}
+.colum {
+	width: 98%;
+}
+.colums {
+	width: 98%;
+}
+.team {
+	width: 100%;
+}
+.teams {
+	width: 100%;
+	text-align: center;
+}
+}
+@media all and (max-width: 600px) {
+.lefters {
+	width: 100%;
+}
+.lefter {
+	width: 100%;
+}
+.cat-list {
+	float: left;
+	width: 48%;
+	margin-top: 2%;
+	
+}
+}
+@media all and (max-width: 630px) {
+	
+.serv-icon1 h2 {
+    text-align: center;
+    font-size: 30px;
+} 
+.gam {
+	width: 31%;
+}
+.icons {
+	width: 98%;
+}
+.icons1 {
+	width: 98%;
+}
+.iconn1 {
+	width: 150px;
+	padding: 10px 0;
+}
+
+.foot-box {
+	float: left;
+	width: 80%;
+	background: #fff;
+	margin-right: 0%;
+	margin-left: 10%;
+}
+.foot {
+    float: left;
+	width: 98%;
+	margin-right: 0%;
+	margin-left: 2%;
+}
+.foot2 {
+    float: left;
+	width: 98%;
+	margin-right: 0%;
+	margin-left: 2%
+}
+.foot3 {
+    float: left;
+	max-width: 98%;
+	margin-left: 2%;
+}
+#footer p {
+	text-align: center;
+}
+.dest {
+    float: none;
+	display: block;
+	clear: both;
+	margin: auto;
+	width: 200px;
+	margin-top: 15px;
+	text-align: center;
+}
+}
+@media all and (max-width: 500px) {
+
+}
